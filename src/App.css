@@ -1,0 +1,40 @@
+body {
+  color: white;
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;  
+  background-attachment: fixed;
+}
+
+.profile{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.caption{
+  font-style: italic;
+  font-weight: bold;
+}
+
+#profilePicture{
+  border-radius: 50%;
+  height: 40%;
+  width: 40%;
+}
+
+#githubStatsAnchor{
+  color: white;
+  text-decoration: none;
+}
+
+.socialIMG{
+  padding: 2%;
+  height: 7.5%;
+  width: 7.5%;
+}
