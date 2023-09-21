@@ -58,7 +58,7 @@ function App() {
           <h2>Github Statistics</h2>
           <p className="caption"><a href='https://github.com/AngusC222' id='githubStatsAnchor'>{pullRequestsCount} Pull Requests, {receivedStarsCount} Stars, {followersCount} Followers, {publicReposCount} Repos</a></p>
           <h2>Contact Me</h2>
-          <p className='caption'><a href="https://github.com/AngusC222" target="_blank"><img src={github} className='socialIMG' alt="Github Logo"/></a><a href="https://x.com/AngusC_Tech" target="_blank"><img src={X} className='socialIMG' alt="X Logo"/></a><a href="https://stackoverflow.com/users/19276480/angus" target="_blank"><img src={stackOverflow} className='socialIMG' alt="Stack Overflow Logo"/></a><a href="https://en.wikipedia.org/wiki/User:AngusCrighton" target="_blank"><img src={wikipedia} className='socialIMG' alt="Wikipedia Logo"/></a><a href="https://en.wikipedia.org/wiki/User:AngusCrighton" target="_blank"><img src={leetcode} className='socialIMG' alt="Leetcode Logo"/></a></p>
+          <p className='caption'><a href="https://github.com/AngusC222" target="_blank"><img src={github} className='socialIMG' alt="Github Logo"/></a><a href="https://x.com/AngusC_Tech" target="_blank"><img src={X} className='socialIMG' alt="X Logo"/></a><a href="https://stackoverflow.com/users/19276480/angus" target="_blank"><img src={stackOverflow} className='socialIMG' alt="Stack Overflow Logo"/></a><a href="https://en.wikipedia.org/wiki/User:AngusCrighton" target="_blank"><img src={wikipedia} className='socialIMG' alt="Wikipedia Logo"/></a><a href="https://leetcode.com/anguscrighton1/" target="_blank"><img src={leetcode} className='socialIMG' alt="Leetcode Logo"/></a></p>
         </div>
       </div>
     </div>
