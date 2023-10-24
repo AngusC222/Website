@@ -31,7 +31,7 @@ async function getReceivedStars() {
 }
 
 async function getTotalPullRequests() {
-  const response = await axios.get('https://api.github.com/search/issues?q=author%3AAngusC222+type%3Apr');
+  const response = await axios.get('https://api.github.com/search/issues?q=type:pr+author:AngusC222');
   return response.data.total_count;
 }
 
